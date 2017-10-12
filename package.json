@@ -10,15 +10,11 @@
 		"build": "npm run build-debug && npm run build-min",
 		"watch": "watchify src/config.js -d --exclude q --im -o build/config.js -v"
 	},
-	"author": "Antoine de Rengervé <antoine.derengerve@partnering.fr> (https://github.com/antoineDerengerve)",
+	"author": "Antoine de Rengervé <antoine.derengerve@partnering.fr> (https://github.com/antoineDeRengerve)",
 	"license": "MIT",
 	"dependencies": {
 		"babelify": "7.3.0",
-		"debug": "2.6.3",
-		"inherits": "2.0.3",
-		"json-socket": "0.2.1",
-		"node-event-emitter": "0.0.1",
-		"r": "0.0.5"
+		"eventemitter3": "2.0.3"
 	},
 	"devDependencies": {
 		"babel-preset-es2015": "6.24.1",
